@@ -1,3 +1,1 @@
-Hello Git 
-This is the next revision
-I a testing git pull
+this is to test multiple functions of git
