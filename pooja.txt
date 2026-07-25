@@ -1,9 +1,0 @@
-Hello Friend 
-How are you !!
-
-Hello world!
-
-
-testing the difference -2
-
-This is to test the git push 
