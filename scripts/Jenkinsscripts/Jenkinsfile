@@ -33,7 +33,7 @@ stage('pooja'){
 	steps{
 	
 	sh'''
-	echo "Hello This is pooja"
+	echo "Hello This is pooja muniraj"
 	uptime
 	date
 	'''
