@@ -1,0 +1,45 @@
+pipeline{
+	agent any
+
+stages{
+	
+stage('hello'){
+	
+	steps{
+	
+	sh'''
+	echo "Hello This is our first project"
+	uptime
+	date
+	'''
+	
+	}
+	}
+
+stage('muni'){
+	
+	steps{
+	
+	sh'''
+	echo "Hello This is muniraj"
+	uptime
+	date
+	'''
+	
+	}
+	}
+stage('pooja'){
+	
+	steps{
+	
+	sh'''
+	echo "Hello This is pooja"
+	uptime
+	date
+	'''
+	}
+	}
+
+
+	}
+	}
