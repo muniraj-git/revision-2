@@ -42,6 +42,16 @@ stage('main'){
 	'''
 	}
 
+	}
+stage('dev'){
+	steps{
+	sh'''
+	uptime
+	date
+	echo "hello dev!!!"
+	'''
+	}
+
 	}	
 	}
 }
