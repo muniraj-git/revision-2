@@ -1,47 +1,56 @@
 pipeline{
 	agent any
 
-	stages{
-	stage('hello'){
+stages{
+	
+stage('hello'){
+	
 	steps{
+	
 	sh'''
+	echo "Hello This is our first project"
 	uptime
 	date
-	echo "hello world!!!"
 	'''
+	
 	}
 	}
 
 stage('muni'){
+	
 	steps{
+	
 	sh'''
+	echo "Hello This is muniraj"
 	uptime
 	date
-	echo "hello muni!!!"
 	'''
+	
 	}
-
 	}
 stage('pooja'){
+	
 	steps{
+	
 	sh'''
+	echo "Hello This is pooja muniraj"
 	uptime
 	date
-	echo "hello pooja!!!"
 	'''
 	}
-
 	}
-
-stage('main'){
+stage('manoj'){
+	
 	steps{
+	
 	sh'''
+	echo "Hello This is manoj"
 	uptime
 	date
-	echo "hello main!!!"
 	'''
 	}
-
-	}	
 	}
-}
+
+
+	}
+	}
