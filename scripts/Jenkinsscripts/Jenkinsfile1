@@ -39,17 +39,6 @@ stage('pooja'){
 	'''
 	}
 	}
-stage('manoj'){
-	
-	steps{
-	
-	sh'''
-	echo "Hello This is manoj"
-	uptime
-	date
-	'''
-	}
-	}
 
 
 	}
