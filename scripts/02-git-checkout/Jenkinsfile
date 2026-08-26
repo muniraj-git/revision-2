@@ -1,0 +1,12 @@
+pipeline{
+
+    agent any
+
+    stages{
+        stage('git-checkout'){
+            steps{
+                git url : 'https://github.com/muniraj-git/Git-Test1.git', branch: 'main'
+            }
+        }
+    }
+}
