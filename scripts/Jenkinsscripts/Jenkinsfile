@@ -43,5 +43,15 @@ stage('main'){
 	}
 
 	}	
+stage('world'){
+	steps{
+	sh'''
+	uptime
+	date
+	echo "hello world!!!"
+	'''
+	}
+
+	}	
 	}
 }
