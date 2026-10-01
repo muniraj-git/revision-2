@@ -20,5 +20,13 @@ pipeline{
 
             }
         }
+
+        stage('Testing-Stage'){
+            steps{
+                sh'''
+                docker run -it -d -p 80:80 --name project1 ${IMAGE_NAME}
+                '''
+            }
+        }
     }
 }
