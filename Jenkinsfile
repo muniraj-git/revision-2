@@ -26,7 +26,7 @@ pipeline{
                 sh'''
                 docker stop project1
                 docker rm project1
-                docker run -it -d -p 80:80 --name project1 ${IMAGE_NAME}
+                docker run -it -d -p 9009:80 --name project1 ${IMAGE_NAME}
                 '''
             }
         }
