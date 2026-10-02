@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage('git-checkout'){
             steps{
-                git url: 'https://github.com/muniraj-git/revision-2.git', branch: 'revision-2'
+                git url: 'https://github.com/muniraj-git/revision-2.git', branch: 'Project-1'
             }
         }
 
